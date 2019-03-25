@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Multimedia</string>
-    <string name="title_home">Video</string>
+    <string name="title_home">Home</string>
+    <string name="title_video">Video</string>
     <string name="title_image">Imagen</string>
+    <string name="title_audio">Audio</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 </resources>
