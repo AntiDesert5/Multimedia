@@ -28,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent2);
                     return true;
                 case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                    Intent intent3 = new Intent(MainActivity.this,Galeria.class);
+                    startActivity(intent3);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                    Intent intent4 = new Intent(MainActivity.this,Musica.class);
+                    startActivity(intent4);
                     return true;
             }
             return false;

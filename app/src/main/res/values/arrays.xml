@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images_description">
+    <item>Descripcion 1</item>
+    <item>Descripcion 2</item>
+    <item>Descripcion 3</item>
+    <item>Descripcion 4</item>
+    <item>Descripcion 5</item>
+    <item>Descripcion 6</item>
+</string-array>
+</resources>
