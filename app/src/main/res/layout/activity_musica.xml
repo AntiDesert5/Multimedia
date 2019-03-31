@@ -25,7 +25,7 @@
         android:layout_height="50dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/reproducir"
-
+        android:onClick="PlayPause"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,7 +39,7 @@
         android:layout_marginRight="13dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/detener"
-
+        android:onClick="Stop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_play" />
 
@@ -51,7 +51,7 @@
         android:layout_marginLeft="13dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/no_repetir"
-
+        android:onClick="Repetir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_play" />
 
