@@ -14,7 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class ShowGalleryActivity extends Activity {
+public class ShowGalleryActivity extends Activity{
 
     public static int mSelected=0;
     private GridView gridview;
@@ -118,7 +118,6 @@ public class ShowGalleryActivity extends Activity {
             }
 
             return imageView;
-            }
         }
     }
-
+}

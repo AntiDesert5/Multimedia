@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class Galeria extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeria);
+
         Button showGallery = findViewById(R.id.button_showGallery);
 
         showGallery.setOnClickListener(new View.OnClickListener() {
@@ -22,10 +22,5 @@ public class Galeria extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.mipmap.ic_launcher, menu);
-        return true;
     }
 }
