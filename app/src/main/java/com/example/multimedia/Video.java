@@ -106,7 +106,7 @@ public class Video extends AppCompatActivity implements View.OnClickListener {
         }
     }
     public void play(int con){
-        String path = "android.resource://" + getPackageName() + "/" + R.raw.ca;
+        String path = "android.resource://" + getPackageName() + "/" + R.raw.forn3;
         String path2 = "android.resource://" + getPackageName() + "/" + R.raw.fort;
         String path3 = "android.resource://" + getPackageName() + "/" + R.raw.fort2;
         if(con==0) {
@@ -121,7 +121,7 @@ public class Video extends AppCompatActivity implements View.OnClickListener {
         }
     }
     public void pause(int con){
-        String path = "android.resource://" + getPackageName() + "/" + R.raw.ca;
+        String path = "android.resource://" + getPackageName() + "/" + R.raw.forn3;
         String path2 = "android.resource://" + getPackageName() + "/" + R.raw.fort;
         String path3 = "android.resource://" + getPackageName() + "/" + R.raw.fort2;
         if(con==0) {
